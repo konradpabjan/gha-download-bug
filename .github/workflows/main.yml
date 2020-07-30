@@ -13,7 +13,7 @@ jobs:
       with:
         name: test
         path: gh-bug-ubuntu-350ac5db114810934de6df4208908d8696f27b74
-    - uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v2
       with:
         name: test
 
