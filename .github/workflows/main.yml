@@ -14,7 +14,7 @@ jobs:
         name: test
         path: gh-bug-ubuntu-350ac5db114810934de6df4208908d8696f27b74   
     - run: |
-        apt-get install tree
+        sudo apt-get install tree
     - uses: actions/download-artifact@v2
       with:
         name: test
